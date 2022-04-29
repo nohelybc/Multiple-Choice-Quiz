@@ -1,0 +1,68 @@
+.app {
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mark {
+    font-style: italic;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+.questions {
+    padding: 5px 10px 5px 45px;
+    width: 500px;
+    text-align: left;
+}
+
+.choice {
+    padding: 5px 10px 5px 45px;
+    width: 500px;
+    text-align: left;
+    margin-top: 10px;
+    position: relative;
+}
+
+.choice:hover {
+    color: #4f4c4c;
+}
+
+.choice:selected {
+    color: #4f4c4c;
+}
+
+span.correct {
+    color: green;
+}
+
+span.incorrect {
+    color: red;
+    text-decoration: line-through;
+}
+
+.choice.correct {
+    border: 2px solid green;
+}
+
+.choice.incorrect {
+    border: 2px solid red;
+    text-decoration: line-through;
+}
+
+.btn-primary {
+    background-color: #0dceda;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 20px;
+    padding: 1.5rem;
+}
+
+.questions {
+    font-size: 18px;
+    margin: 0.5rem 1rem;
+}
